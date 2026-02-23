@@ -1,0 +1,65 @@
+body {
+    font-family: Arial,  sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+.flag {
+    width: 300px;
+    height: 180px;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+
+.colombia .yellow {
+    height: 50%;
+    background: #FCD116;
+}
+.colombia .blue {
+    height: 25%;
+    background: #003893;
+}
+.colombia .red {
+    height: 25%;
+    background: #CE1126;
+}
+
+
+.france {
+    display: flex;
+}
+.france .blue{
+    width: 33.33%;
+    background: #0055A4;
+}
+.france .white {
+    width: 33.33%;
+    background: #FFFFFF;
+}
+.france .red {
+    width: 33.33%;
+    background: #EF4135;
+}
+
+
+.belgium {
+    display: flex;
+}
+.belgium .black {
+    width: 33.33%;
+    background: #000000;
+}
+.beglium .yellow {
+    width: 33.33%;
+    background: #FFD90C;
+}
+.belgium .red {
+    width: 33.33%;
+    background: #EF3340;
+}
